@@ -1,0 +1,112 @@
+{
+  "dosen": {
+    "-OUtOtw0LoOSp-JrRWxl": {
+      "id": "-OUtOtw0LoOSp-JrRWxl",
+      "nama": "Adi",
+      "nidn": "121515"
+    }
+  },
+  "jadwal": {
+    "Pemrograman Lanjut": {
+      "hari": "Senin",
+      "jam": "08:00 - 10:00"
+    },
+    "Sistem Operasi": {
+      "hari": "Rabu",
+      "jam": "10:00 - 12:00"
+    }
+  },
+  "mahasiswa": {
+    "-OUtsNTBzqc-1SVZcL6E": {
+      "id": "-OUtsNTBzqc-1SVZcL6E",
+      "nama": "Azaa",
+      "nim": "671234"
+    }
+  },
+  "matakuliah": {
+    "-OU_aVeKvzp_rDMBaWwN": {
+      "nama": "AI"
+    },
+    "-OU_aWlwe9vaPocnvDMl": {
+      "nama": "AI"
+    },
+    "-OUcoL7V2X61ESugWzbc": {
+      "nama": "Sistem Informasi"
+    },
+    "-OUcv_sS2lPCck3WXNt8": {
+      "nama": "Sistem Informasi"
+    },
+    "-OUt64i4RypMpmQNtlEn": {
+      "nama": "Data Seins"
+    },
+    "-OUt65YSgEbCM_-pJ-pw": {
+      "nama": "Data Seins"
+    },
+    "NkL123": {
+      "nama": "Pemrograman Lanjut"
+    },
+    "NkL456": {
+      "nama": "Sistem Operasi"
+    }
+  },
+  "nilai": {
+    "672022011": {
+      "Pemrograman Lanjut": "95"
+    },
+    "672022124": {
+      "Data": "100",
+      "Data_timestamp": 1752235176194
+    },
+    "672022319": {
+      "Basis Data": "90",
+      "Basis Data_timestamp": 1752229738867,
+      "data": "100",
+      "data_timestamp": 1752234330353
+    },
+    "672023123": {
+      "Sistem informasi": "90",
+      "Sistem informasi_timestamp": 1751957833300
+    },
+    "672023134": {
+      "sistem informasi": "100",
+      "sistem informasi_timestamp": 1751959726499
+    },
+    "1234567890": {
+      "matkul": "Pemrograman Lanjut",
+      "nama": "Budi",
+      "nilai": "85"
+    }
+  },
+  "registrasi_matkul": {
+    "UID_MHS": {
+      "matkul_1": "Pemrograman Lanjut",
+      "matkul_2": "Sistem Operasi"
+    }
+  },
+  "registrasi_ulang": {
+    "UID_MHS": {
+      "nama": "Budi",
+      "nim": "672022123",
+      "semester": "5",
+      "status": "Aktif",
+      "validasi": "Belum divalidasi"
+    }
+  },
+  "users": {
+    "4D9Vu5UetCSXexsGvPtxhKzeeYE2": {
+      "email": "mahasiswa@ti.uksw.edu",
+      "password": 678901,
+      "role": "mahasiswa"
+    },
+    "5otWpNEhaCduszjCc4OThirV3RC2": {
+      "email": "dosen1@ti.uksw.edu",
+      "password": 612345,
+      "role": "dosen"
+    },
+    "FqjynIZN3YPM5RpBEWpcRDZYbZC2": {
+      "email": "kaprodi@ti.uksw.edu",
+      "password": 654321,
+      "role": "kaprodi"
+    }
+  }
+}
