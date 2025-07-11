@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="8dp"
+    android:elevation="4dp"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNamaMatkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Matkul"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dosen Pengampu"
+            android:textColor="#616161"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtHariJam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senin, 08:00 - 10:00"
+            android:textColor="#424242"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtRuangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruangan A1"
+            android:textColor="#424242"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtMahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mahasiswa: A, B, C"
+            android:textColor="#424242"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

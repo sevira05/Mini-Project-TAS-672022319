@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uksw.siasat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SIASAT UKSW"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SiasatUKSW"> <!-- Ganti theme jika kamu sudah buat -->
+
+        <!-- Launcher Activity harus pakai android:exported -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Aktivitas internal tidak butuh exported -->
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MenuKaprodiActivity" />
+        <activity android:name=".MenuDosenActivity" />
+        <activity android:name=".MenuMahasiswaActivity" />
+        <activity android:name=".CRUDMatkulActivity" />
+        <activity android:name=".CRUDDosenActivity" />
+        <activity android:name=".CRUDNilaiActivity" />
+        <activity android:name=".RegistrasiMatkulActivity" />
+        <activity android:name=".RegistrasiUlangActivity" />
+        <activity android:name=".ValidasiRegistrasiActivity" />
+        <activity android:name=".RekapRegistrasiActivity" />
+        <activity android:name=".TambahJadwalActivity" />
+        <activity android:name=".KaprodiLoginActivity" />
+
+    </application>
+
+</manifest>

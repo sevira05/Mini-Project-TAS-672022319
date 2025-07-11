@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A2E"
+    android:gravity="center"
+    android:padding="32dp">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/app_name"
+android:textColor="#E0E0E0"
+android:textSize="40sp"
+android:textStyle="bold"
+android:layout_marginBottom="16dp" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Sistem Informasi Akademik"
+android:textColor="#B0B0B0"
+android:textSize="20sp"
+android:layout_marginBottom="64dp" />
+
+<Button
+android:id="@+id/btnLoginKaprodi"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/btn_login_kaprodi"
+android:textAllCaps="false"
+android:backgroundTint="#0F3460"
+android:textColor="#FFFFFF"
+android:minHeight="60dp"
+android:textSize="18sp"
+android:textStyle="bold"
+android:layout_marginBottom="16dp"
+app:cornerRadius="12dp"
+app:elevation="8dp" />
+
+<Button
+android:id="@+id/btnLoginDosen"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/btn_login_dosen"
+android:textAllCaps="false"
+android:backgroundTint="#0F3460"
+android:textColor="#FFFFFF"
+android:minHeight="60dp"
+android:textSize="18sp"
+android:textStyle="bold"
+android:layout_marginBottom="16dp"
+app:cornerRadius="12dp"
+app:elevation="8dp" />
+
+<Button
+android:id="@+id/btnLoginMahasiswa"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/btn_login_mahasiswa"
+android:textAllCaps="false"
+android:backgroundTint="#0F3460"
+android:textColor="#FFFFFF"
+android:minHeight="60dp"
+android:textSize="18sp"
+android:textStyle="bold"
+android:layout_marginBottom="16dp"
+app:cornerRadius="12dp"
+app:elevation="8dp" />
+
+<Button
+android:id="@+id/btnRegistrasiUlang"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/text_registrasi_ulang"
+    android:textAllCaps="false"
+    android:backgroundTint="#3949AB"
+    android:textColor="#FFFFFF"
+    android:minHeight="56dp"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_marginTop="24dp"
+    app:cornerRadius="12dp"
+    app:elevation="8dp" />
+
+<Button
+android:id="@+id/btnLihatJadwal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/text_lihat_jadwal"
+    android:textAllCaps="false"
+    android:backgroundTint="#3949AB"
+    android:textColor="#FFFFFF"
+    android:minHeight="56dp"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_marginTop="12dp"
+    app:cornerRadius="12dp"
+    app:elevation="8dp" />
+
+
+    </LinearLayout>

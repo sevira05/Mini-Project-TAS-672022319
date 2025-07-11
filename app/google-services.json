@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "312834805641",
+    "firebase_url": "https://siasatuksw-7aaca-default-rtdb.firebaseio.com",
+    "project_id": "siasatuksw-7aaca",
+    "storage_bucket": "siasatuksw-7aaca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312834805641:android:344bc461131ec5a2c21b58",
+        "android_client_info": {
+          "package_name": "com.uksw.siasat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyvv1Y9Xo0IhJf7XRF_4f2E8unWKw3SOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

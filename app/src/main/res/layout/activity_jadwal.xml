@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jadwal_title"
+    android:textColor="#E0E0E0"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+    android:layout_marginBottom="16dp"
+    android:contentDescription="@string/jadwal_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/jadwal_scroll_description">
+        <LinearLayout
+            android:id="@+id/JadwalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#16213E"
+            android:clipToPadding="false"/>
+    </ScrollView>
+
+</LinearLayout>

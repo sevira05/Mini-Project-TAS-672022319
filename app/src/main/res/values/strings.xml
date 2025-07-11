@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SiAsatUKSW</string>
+
+    <!-- String untuk Login Activity -->
+    <string name="welcome_title">Selamat Datang!</string>
+    <string name="welcome_subtitle">Silakan masuk untuk melanjutkan</string>
+    <string name="hint_email_username">Email atau Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">MASUK</string>
+    <string name="register_prompt">Belum punya akun? Daftar di sini</string>
+
+    <!-- String untuk DosenFragment -->
+    <string name="dosen_list_description">Daftar Dosen</string>
+    <string name="add_dosen_description">Tambah Dosen Baru</string>
+
+    <!-- String untuk MatkulFragment -->
+    <string name="matkul_list_description">Daftar Mata Kuliah</string>
+    <string name="add_matkul_description">Tambah Mata Kuliah Baru</string>
+
+    <!-- String untuk MahasiswaFragment -->
+    <string name="mahasiswa_list_description">Daftar Mahasiswa</string>
+    <string name="add_mahasiswa_description">Tambah Mahasiswa Baru</string>
+
+    <!-- String untuk Dialog Edit -->
+    <string name="edit_dosen_title">Edit Data Dosen</string>
+    <string name="edit_matkul_title">Edit Data Mata Kuliah</string>
+    <string name="edit_mahasiswa_title">Edit Data Mahasiswa</string>
+    <string name="button_save">Simpan</string>
+    <string name="button_delete">Hapus</string>
+    <string name="hint_nidn">NIDN Dosen</string>
+    <string name="hint_nama_dosen">Nama Dosen</string>
+    <string name="hint_kode_matkul">Kode Mata Kuliah</string>
+    <string name="hint_nama_matkul">Nama Mata Kuliah</string>
+    <string name="hint_nim">NIM Mahasiswa</string>
+    <string name="hint_nama_mahasiswa">Nama Mahasiswa</string>
+
+    <!-- String untuk Menu Dosen -->
+    <string name="welcome_dosen">Selamat Datang, Dosen!</string>
+    <string name="input_nilai_button">Input Nilai</string>
+    <string name="manage_dosen_button">Kelola Data Dosen</string>
+    <string name="logout_button">Logout</string>
+
+    <!-- String untuk Menu Kaprodi -->
+    <string name="dashboard_kaprodi_title">Dashboard Kaprodi</string>
+    <string name="statistics_title">Statistik:</string>
+    <string name="total_matkul">Total Mata Kuliah:</string>
+    <string name="total_dosen">Total Dosen:</string>
+    <string name="dosen_assigned">Dosen Sudah Bertugas:</string>
+    <string name="dosen_unassigned">Dosen Belum Bertugas:</string>
+    <string name="manage_matkul_button">Kelola Mata Kuliah</string>
+    <string name="manage_dosen_kaprodi_button">Kelola Dosen</string>
+
+    <!-- String untuk Menu Mahasiswa -->
+    <string name="welcome_mahasiswa">Selamat Datang, Mahasiswa!</string>
+    <string name="your_grades_title">Nilai Anda:</string>
+    <string name="loading_grades">Sedang memuat nilai...</string>
+    <string name="no_grades_yet">Belum ada data nilai.</string>
+    <string name="unauthenticated_user">Pengguna tidak terautentikasi.</string>
+    <string name="failed_load_grades">Gagal memuat data nilai.</string>
+    <string name="manage_mahasiswa_button">Kelola Data Mahasiswa</string>
+
+    <!-- String untuk activity_main.xml -->
+    <string name="text_registrasi_ulang">Registrasi Ulang</string>
+    <string name="text_lihat_jadwal">Lihat Jadwal</string>
+    <string name="btn_login_kaprodi">Login Kaprodi</string>
+    <string name="btn_login_dosen">Login Dosen</string>
+    <string name="btn_login_mahasiswa">Login Mahasiswa</string>
+    <string name="text_registrasi_matakuliah">Registrasi Mata Kuliah</string>
+
+    <!-- NEW: String untuk Jadwal -->
+    <string name="jadwal_title">Daftar Jadwal Kuliah</string>
+    <string name="jadwal_scroll_description">Gulir untuk melihat jadwal</string>
+
+</resources>
